@@ -92,6 +92,8 @@ fu_vli_common_device_kind_to_string (FuVliDeviceKind device_kind)
 		return "VL212";
 	if (device_kind == FU_VLI_DEVICE_KIND_MSP430)
 		return "MSP430";
+	if (device_kind == FU_VLI_DEVICE_KIND_PS186)
+		return "PS186";
 	return NULL;
 }
 
